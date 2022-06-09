@@ -23,7 +23,7 @@ html {
 
 body {
   display: flex;
-  flex-flow: row nowrap;
+  flex-flow: column nowrap;
   justify-content: center;
   align-items: center;
   height: 100vh;
@@ -183,3 +183,4 @@ a {
   color: var(--icon-hover);
   transition: 0.2s linear;
 }
+

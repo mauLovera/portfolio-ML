@@ -23,7 +23,7 @@ html {
 
 body {
   display: flex;
-  flex-flow: row nowrap;
+  flex-flow: column nowrap;
   justify-content: center;
   align-items: center;
   height: 100vh;
@@ -184,4 +184,11 @@ a {
     margin-bottom: 100px;
   }
 
+  .mask {
+    height: 20vh;
+    width: 100px;
+    background-color: rgba(255, 255, 255, 0);
+  }
+
 }
+
