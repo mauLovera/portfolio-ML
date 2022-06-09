@@ -185,8 +185,8 @@ a {
 
 
 @media (max-width: 768px) {
-  body {
-    min-height: stretch;
+  .projects {
+    margin-bottom: 50px;
   }
 }
 
