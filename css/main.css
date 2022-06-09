@@ -38,8 +38,8 @@ body {
 }
 
 .frame {
-  height: 95vh;
-  width: 95vw;
+  height: 95%;
+  width: 95%;
   border: .5px solid var(--frame-d);
   background-color: var(--frame-bg-d);
 }
@@ -151,7 +151,7 @@ a {
   letter-spacing: .01em;
 }
 
-@media (max-width: 768px) {
+/* @media (max-width: 768px) {
   html {
     
   }
@@ -163,6 +163,5 @@ a {
 
   .frame {
     height: 90vh;
-    width: 90vw;
   }
-}
+} */
