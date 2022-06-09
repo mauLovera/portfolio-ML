@@ -184,11 +184,16 @@ a {
     margin-bottom: 100px;
   }
 
-  .mask {
-    height: 20vh;
+  .mask-top {
+    height: 10vh;
     width: 100px;
     background-color: rgba(255, 255, 255, 0);
   }
 
+  .mask-bottom {
+    height: 25vh;
+    width: 100px;
+    background-color: rgba(255, 255, 255, 0);
+  }
 }
 
