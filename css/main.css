@@ -135,17 +135,18 @@ a {
 .main {
   display: flex;
   flex-flow: row;
-  justify-content: center;
-  align-items: center;
+  justify-content: flex-end;
+  align-items: flex-end;
   height: 75%;
 }
 
 .about {
   display: flex;
-  text-align: center;
+  text-align: right;
   width: 65%;
   line-height: 2.5;
   margin-right: 20px;
+  margin-bottom: 50px;
 }
 
 .about-text {
