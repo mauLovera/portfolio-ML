@@ -7,20 +7,19 @@ import { projectData, projectLanguage} from "./project-data.js";
 // CERs
 
 const projectList = document.getElementById('projects')
-const mailBtn = document.querySelectorAll('.mail')
+const mainEl = document.querySelector('.main')
+const body = document.body
+const frame = document.querySelector('.frame')
 
 
 // Event Listeners
 
-mailBtn.forEach((envelope) => {
-  envelope.addEventListener('click', openMail)
+window.addEventListener('load' , function load() {
+  mainEl.classList.toggle('opacity-transition')
 })
-
 // Functions
 
-function openMail(evt) {
-  evt.location='mailto:abc@abc.com'
-}
+
 
 // Modules
 const projectModule = projectData.map(project => 

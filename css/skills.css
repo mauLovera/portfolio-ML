@@ -49,6 +49,15 @@ a {
   color: inherit;
 }
 
+.opacity-transition {
+  animation: fade-in 1s linear;
+}
+
+@keyframes fade-in {
+  0%    { opacity: 0; }
+  100%  { opacity: 1; }
+}
+
 /*** -----------------------------------Nav------------------------------------- ***/
 
 .nav {

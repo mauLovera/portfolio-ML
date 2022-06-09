@@ -49,6 +49,15 @@ a {
   color: inherit;
 }
 
+.opacity-transition {
+  animation: fade-in 1s linear;
+}
+
+@keyframes fade-in {
+  0%    { opacity: 0; }
+  100%  { opacity: 1; }
+}
+
 /*** -----------------------------------Nav------------------------------------- ***/
 
 .nav {
@@ -143,8 +152,9 @@ a {
 .about {
   display: flex;
   text-align: right;
-  width: 65%;
+  width: 80%;
   line-height: 2.5;
+  font-size: 1.2em;
   margin-right: 20px;
   margin-bottom: 50px;
 }
@@ -155,17 +165,19 @@ a {
   letter-spacing: .01em;
 }
 
-/* @media (max-width: 768px) {
-  html {
-    
+@media (max-width: 768px) {
+  main {
+    font-size: 1em;
   }
 
-  body {
-    height: 100vh;
-    width: 100vw;
+  .about {
+    display: flex;
+    text-align: right;
+    width: 65%;
+    line-height: 2.5;
+    font-size: 1em;
+    margin-right: 20px;
+    margin-bottom: 50px;
   }
 
-  .frame {
-    height: 90vh;
-  }
-} */
+}
