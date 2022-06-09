@@ -184,7 +184,12 @@ a {
 }
 
 
-
+@media (max-width: 768px) {
+  body {
+    min-height: stretch;
+    height: -webkit-fill-available;
+  }
+}
 
 
 
