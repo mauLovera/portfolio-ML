@@ -27,7 +27,6 @@ body {
   justify-content: center;
   align-items: center;
   height: 100vh;
-  height: calc(var(--vh, 1vh) * 100);
   width: 100vw;
   margin: 0;
   padding: 0;
@@ -152,4 +151,6 @@ a {
   letter-spacing: .01em;
 }
 
-
+@media (min-width: 768px) {
+  
+}
