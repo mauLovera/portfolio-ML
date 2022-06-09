@@ -17,6 +17,8 @@ const frame = document.querySelector('.frame')
 window.addEventListener('load' , function load() {
   mainEl.classList.toggle('opacity-transition')
 })
+
+// window.addEventListener()
 // Functions
 
 

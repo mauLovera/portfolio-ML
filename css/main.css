@@ -170,6 +170,10 @@ a {
 }
 
 @media (max-width: 768px) {
+
+  body {
+
+  }
   main {
     font-size: 1em;
   }
@@ -185,7 +189,7 @@ a {
   }
 
   .mask-top {
-    height: 4vh;
+    height: 2vh;
     width: 100px;
     background-color: rgba(255, 255, 255, 0);
   }
