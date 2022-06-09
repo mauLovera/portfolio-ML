@@ -151,6 +151,9 @@ a {
   letter-spacing: .01em;
 }
 
-@media (min-width: 768px) {
-  
+@media (max-width: 768px) {
+  .about {
+    width: 75%;
+    margin-bottom: 100px;
+  }
 }
