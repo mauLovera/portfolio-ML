@@ -179,6 +179,12 @@ a {
   margin-block-end: .7em;
 }
 
+.skills-projects {
+  font-size: .5em;
+  margin-block-start: .2em;
+  margin-block-end: .7em;
+}
+
 .skills-projects > a:hover {
   color: var(--icon-hover);
   transition: 0.2s linear;

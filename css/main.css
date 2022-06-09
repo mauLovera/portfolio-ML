@@ -155,8 +155,11 @@ a {
 
 .about {
   display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-end;
   text-align: right;
-  width: 80%;
+  width: 90%;
   line-height: 2.5;
   font-size: 1.2em;
   margin-right: 20px;
