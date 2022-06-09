@@ -23,7 +23,7 @@ html {
 
 body {
   display: flex;
-  flex-flow: row nowrap;
+  flex-flow: column nowrap;
   justify-content: center;
   align-items: center;
   height: 100vh;
@@ -211,4 +211,26 @@ a {
   font-size: .5em;
   margin-right: 5px;
   color: var(--icon-hover);
+}
+
+@media (max-width: 768px) {
+
+  body {
+
+  }
+  main {
+
+  }
+
+  .mask-top {
+    height: 2.5vh;
+    width: 100px;
+    background-color: rgba(255, 255, 255, 0);
+  }
+
+  .mask-bottom {
+    height: 15vh;
+    width: 100px;
+    background-color: rgba(255, 255, 255, 0);
+  }
 }
