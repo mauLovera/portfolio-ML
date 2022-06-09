@@ -19,6 +19,8 @@ html {
 
   --forum: rgba(0, 0, 0, 0.329);
   --icon-hover: #f1dada;
+  --name-ease: rgb(255, 255, 255);
+
 }
 
 body {
@@ -56,6 +58,39 @@ a {
 @keyframes fade-in {
   0%    { opacity: 0; }
   100%  { opacity: 1; }
+}
+
+.underline-animation {
+  text-decoration: underline 0.15em rgba(0, 0, 0, 0);
+  text-underline-offset: 0.2em;
+  animation: underline 3s ease-in;
+}
+
+.underline-animation-2 {
+  text-decoration: underline 0.15em rgba(0, 0, 0, 0);
+  text-underline-offset: 0.2em;
+  animation: underline 3s ease-in;
+  animation-delay: 3s;
+}
+
+.underline-animation-3 {
+  text-decoration: underline 0.15em rgba(0, 0, 0, 0);
+  text-underline-offset: 0.2em;
+  animation: underline 4s ease-in;
+  animation-delay: 6s;
+}
+
+.underline-animation-4 {
+  text-decoration: underline 0.15em rgba(0, 0, 0, 0);
+  text-underline-offset: 0.2em;
+  animation: underline 4s ease-in;
+  animation-delay: 9s;
+}
+
+@keyframes underline {
+  0%    { text-decoration-color: rgba(255, 255, 255, 0);}
+  50%    { text-decoration-color: rgba(255, 255, 255, 1);}
+  100%    { text-decoration-color: rgba(255, 255, 255, 0);}
 }
 
 /*** -----------------------------------Nav------------------------------------- ***/

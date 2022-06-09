@@ -8,6 +8,10 @@ import { projectData, projectLanguage} from "./project-data.js";
 
 const projectList = document.getElementById('projects')
 const mainEl = document.querySelector('.main')
+const name = document.querySelector('.name')
+const nameSecondLine = document.querySelector('.name2')
+const nameThirdLine = document.querySelector('.name3')
+const nameFourthLine = document.querySelector('.name4')
 const body = document.body
 const frame = document.querySelector('.frame')
 
@@ -16,7 +20,12 @@ const frame = document.querySelector('.frame')
 
 window.addEventListener('load' , function load() {
   mainEl.classList.toggle('opacity-transition')
+  name.classList.toggle('underline-animation')
+  nameSecondLine.classList.toggle('underline-animation-2')
+  nameThirdLine.classList.toggle('underline-animation-3')
+  nameFourthLine.classList.toggle('underline-animation-4')
 })
+
 
 // window.addEventListener()
 // Functions
