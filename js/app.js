@@ -12,8 +12,15 @@ const mailBtn = document.querySelectorAll('.mail')
 
 // Event Listeners
 
+mailBtn.forEach((envelope) => {
+  envelope.addEventListener('click', openMail)
+})
 
 // Functions
+
+function openMail(evt) {
+  evt.location='mailto:abc@abc.com'
+}
 
 // Modules
 const projectModule = projectData.map(project => 
