@@ -50,7 +50,7 @@ a {
 }
 
 .opacity-transition {
-  animation: fade-in 1s linear;
+  animation: fade-in 1s ease-in;
 }
 
 @keyframes fade-in {
@@ -131,6 +131,10 @@ a {
 
 .links > ul > li {
   margin: 15px 0;
+}
+
+.links > ul > li:nth-child(1) {
+  color: var(--icon-hover);
 }
 
 .links > ul > li > a:hover {
