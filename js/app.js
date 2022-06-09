@@ -1,4 +1,4 @@
-import { projectData } from "./project-data.js";
+import { projectData, projectLanguage} from "./project-data.js";
 
 // Variables
 
@@ -7,6 +7,7 @@ import { projectData } from "./project-data.js";
 // CERs
 
 const projectList = document.getElementById('projects')
+const skillsList = document.getElementById('skills')
 
 // Event Listeners
 
@@ -15,7 +16,9 @@ const projectList = document.getElementById('projects')
 
 
 
-// Modulea
+
+
+// Modules
 const projectModule = projectData.map(project => 
   `
 <p class="header">Projects (Develop & Design)</p>
@@ -60,5 +63,3 @@ const projectModule = projectData.map(project =>
 
   `
 ).join('')
-
-projectList.innerHTML = projectModule

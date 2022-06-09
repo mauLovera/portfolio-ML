@@ -8,6 +8,14 @@ const projectData = [
   }
 ]
 
+const projectLanguage = [
+  {
+    JavaScript: '<a href="https://tic-tac-toe-mauriciolovera.netlify.app/">Tic-Tac-Toe</a>',
+  }
+]
+
+
 export {
-  projectData
+  projectData,
+  projectLanguage
 }
