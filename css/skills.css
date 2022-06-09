@@ -38,8 +38,8 @@ body {
 }
 
 .frame {
-  height: 95vh;
-  width: 95vw;
+  height: 95%;
+  width: 95%;
   border: .5px solid var(--frame-d);
   background-color: var(--frame-bg-d);
 }
@@ -95,6 +95,8 @@ a {
 
 .title-icons > a > i:hover {
   color: var(--icon-hover);
+  transition: .2s linear;
+
 }
 
 /* -----------------------------------Links------------------------------------- */
@@ -123,6 +125,7 @@ a {
 }
 
 .links > ul > li > a:hover {
+  transition: .2s linear;
   color: var(--icon-hover);
 }
 
@@ -160,4 +163,9 @@ a {
   font-size: .5em;
   margin-block-start: .2em;
   margin-block-end: .7em;
+}
+
+.skills-projects > a:hover {
+  color: var(--icon-hover);
+  transition: 0.2s linear;
 }

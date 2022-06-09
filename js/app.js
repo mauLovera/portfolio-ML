@@ -7,23 +7,20 @@ import { projectData, projectLanguage} from "./project-data.js";
 // CERs
 
 const projectList = document.getElementById('projects')
-const skillsList = document.getElementById('skills')
+const mailBtn = document.querySelectorAll('.mail')
+
 
 // Event Listeners
 
+
 // Functions
-
-
-
-
-
 
 // Modules
 const projectModule = projectData.map(project => 
-  `
+`
 <p class="header">Projects (Develop & Design)</p>
 <h1>
-  <a href="${project.deployment}">
+  <a id="project-title" href="${project.deployment}">
     ${project.title}
   </a>
   <a href="${project.github}">
@@ -38,7 +35,10 @@ const projectModule = projectData.map(project =>
 </p>
 <h1>
   <a href="">
-    Placeholder <i class="fa-brands fa-github icon"></i>
+    Placeholder 
+  </a>
+  <a href="${project.github}">
+    <i class="fa-brands fa-github icon"></i>
   </a>
 </h1>
 <p>
@@ -46,7 +46,10 @@ const projectModule = projectData.map(project =>
 </p>
 <h1>
   <a href="">
-    Placeholder <i class="fa-brands fa-github icon"></i>
+    Placeholder 
+    </a>
+  <a href="${project.github}">
+    <i class="fa-brands fa-github icon"></i>
   </a>
 </h1>
 <p>
@@ -54,12 +57,17 @@ const projectModule = projectData.map(project =>
 </p>
 <h1>
   <a href="">
-    Placeholder <i class="fa-brands fa-github icon"></i>
+    Placeholder 
+  </a>
+  <a href="${project.github}">
+    <i class="fa-brands fa-github icon"></i>
   </a>
 </h1>
 <p>
   <span class="project-year">2022</span> / Placeholder 
 </p>
-
-  `
+`
 ).join('')
+
+projectList.innerHTML = projectModule
+

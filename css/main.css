@@ -95,6 +95,8 @@ a {
 
 .title-icons > a > i:hover {
   color: var(--icon-hover);
+  transition: .2s linear;
+
 }
 
 /* -----------------------------------Links------------------------------------- */
@@ -123,6 +125,7 @@ a {
 }
 
 .links > ul > li > a:hover {
+  transition: .2s linear;
   color: var(--icon-hover);
 }
 
@@ -132,14 +135,14 @@ a {
 .main {
   display: flex;
   flex-flow: row;
-  justify-content: flex-end;
-  align-items: flex-end;
+  justify-content: center;
+  align-items: center;
   height: 75%;
 }
 
 .about {
   display: flex;
-  text-align: right;
+  text-align: center;
   width: 65%;
   line-height: 2.5;
   margin-right: 20px;
