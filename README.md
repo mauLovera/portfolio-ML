@@ -20,6 +20,7 @@ To the first of many iterations!
 - [ ] modular update of skills and projects based on languages
 - [ ] text animations on mobile
 - [ ] react, tailwind, and other frameworks added 
+- [ ] dark and light mode!
 
 ## Deployed Link!
 
