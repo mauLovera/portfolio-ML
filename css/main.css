@@ -62,7 +62,7 @@ a {
 
 .underline-animation {
   text-decoration: underline 0.15em rgba(0, 0, 0, 0);
-  /* text-underline-offset: 0.2em; */
+  text-underline-offset: 0.2em;
   animation: underline 3s infinite;
 }
 
