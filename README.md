@@ -1,5 +1,7 @@
 ## Hello!
 
+![Preview Image](/assets/Preview%20Image.png)
+
 To the first of many iterations! 
 
 ## Technologies Used 
@@ -8,6 +10,8 @@ To the first of many iterations!
 * HTML
 * JavaScript
 * git
+
+
 
 ## Ice Box 
 ---
