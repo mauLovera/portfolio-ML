@@ -225,9 +225,7 @@ a {
     margin-right: 20px;
     margin-bottom: 10px;
   }
-}
 
-@supports (-webkit-touch-callout: none;) {
   .mask-top {
     height: 2.5vh;
     width: 100px;
