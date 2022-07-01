@@ -5,6 +5,13 @@ const projectData = [
     image: '/assets/TTT.png',
     github: 'https://github.com/mauLovera/ttt-weekend',
     language: 'JavaScript'
+  },
+  {
+    title: 'Orbit.gg',
+    deployment: 'https://tic-tac-toe-mauriciolovera.netlify.app/',
+    image: '/assets/TTT.png',
+    github: 'https://github.com/mauLovera/ttt-weekend',
+    language: 'JavaScript'
   }
 ]
 
